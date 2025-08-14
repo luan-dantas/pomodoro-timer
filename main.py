@@ -20,3 +20,11 @@ def iniciar_pausar():
 
 def resetar():
     pass
+
+# Criando a janela principal
+janela = tk.Tk()
+janela.title("Cronômetro Pomodoro")
+janela.geometry("400x250")
+janela.resizable(False, False)
+
+janela.mainloop()
